@@ -13,3 +13,16 @@ Multiplicador advinha o que ele faz?
 func Multiplicador(x int, y int) int {
 	return x * y
 }
+
+//Divisor advinha?
+func Divisor(numeroX int, numeroY int) (resultado int) {
+	resultado = numeroX / numeroY
+	return
+}
+
+//DivisorComResto faz alguma coisa
+func DivisorComResto(numeroA int, numeroB int) (resultado int, resto int) {
+	resultado = numeroA / numeroB
+	resto = numeroA % numeroB
+	return
+}
